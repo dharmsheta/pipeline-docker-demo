@@ -2,7 +2,6 @@ node {
    stage('Preparation') {
       // Get some code from a GitHub repository
       git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-      sh 'mvn -version'
    }
 
    stage('Build') {
